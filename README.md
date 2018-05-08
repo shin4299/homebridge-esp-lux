@@ -42,13 +42,13 @@ payload interpreted as an ASCII string representing the light level in lux.
 
 
 ## ESP Easy Controllers Setting
-Protocol: generic UDP
-Locate Controller:	Use IP address
-Controller IP: 192.168.1.100 (Your homebridge server IP)
-Controller Port: 8269
-Controller Subscribe: 
-Controller Publish:	{"light_lux":%val1%}
-Enabled: check
+* `Protocol`: generic UDP
+* `Locate Controller`: Use IP address
+* `Controller IP`: 192.168.1.100 (Your homebridge server IP)
+* `Controller Port`: 8269
+* `Controller Subscribe`: 
+* `Controller Publish`:	{"light_lux":%val1%}
+* `Enabled`: check
 
 UDP packets are expected to be sent from a remote sensor in JSON, for example:
 
