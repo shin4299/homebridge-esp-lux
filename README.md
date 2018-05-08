@@ -1,5 +1,6 @@
 # homebridge-esp-lux
-This plug-in is based on [UDP Json](https://github.com/rxseger/homebridge-udp-json)
+This plug-in is based on [UDP Json](https://github.com/rxseger/homebridge-udp-json).
+
 UDP server for receiving JSON messages from remote sensors on your network,
 plugin for [Homebridge](https://github.com/nfarina/homebridge)
 
