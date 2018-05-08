@@ -37,8 +37,25 @@ or
 
 Creates a LightSensor service named Lighting.
 
-Listens for UDP datagrams on port 8267, and reports the light level as the
+Listens for UDP datagrams on port 8269, and reports the light level as the
 payload interpreted as an ASCII string representing the light level in lux.
+
+
+## ESP Easy Controllers Setting
+Protocol: generic UDP
+Locate Controller:	Use IP address
+Controller IP: 192.168.1.100 (Your homebridge server IP)
+Controller Port: 8269
+Controller Subscribe: 
+Controller Publish:	{"light_lux":%val1%}
+Enabled: check
+
+UDP packets are expected to be sent from a remote sensor in JSON, for example:
+
+```json
+{"light_lux": 412.20}
+```
+
 
 ## License
 
