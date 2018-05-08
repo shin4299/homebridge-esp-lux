@@ -35,11 +35,6 @@ or
     ]
 ```
 
-Creates a LightSensor service named Lighting.
-
-Listens for UDP datagrams on port 8269, and reports the light level as the
-payload interpreted as an ASCII string representing the light level in lux.
-
 
 ## ESP Easy Controllers Setting
 * `Protocol`: generic UDP
